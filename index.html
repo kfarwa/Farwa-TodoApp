@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+    <div class="app">
+    
+
+    <div  class="todo">
+        
+        <h1>TODO LIST APP</h1>
+        <input type="text" placeholder="Enter Date" required > <span>
+        <input type="text" placeholder="Enter Day" required> </span>
+    </div>
+<div id="main-input" >
+        <h3 class="todo-label" >What do you want to do today?</h3>
+        <br>
+        <input type="text"  placeholder="Enter Todo" id="todo-item" required> 
+        <button   onclick="addTodo()"  class="btn" >  Add ToDo</button>
+        <button onclick="deleteAll()" class="btn">Delete All</button>
+
+    </div>
+<div>
+    <ol id="list">
+
+
+    </ol>
+</div>
+</div>
+</div>
+
+    <script src="app.js"></script>
+    <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

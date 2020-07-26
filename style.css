@@ -1,0 +1,103 @@
+
+
+* { 
+	padding: 0; 
+	margin: 0; 
+	box-sizing: border-box; 
+	font-family: cursive; 
+} 
+.todo input{
+    font-size: 15px;
+   
+}
+#todo-item {
+	font-size: 15px;
+}
+
+.btn{
+    background-color: palevioletred !important;
+    font-size: 15 px !important;
+	margin: 4px !important;
+	cursor: pointer;
+	font-weight: bolder;
+	border: 2px solid black !important;
+  
+	
+}
+
+ .app{
+	background: #FFC0CB;
+	margin: 60px;
+	padding: 50px;
+	} 
+body { 
+	background-image: url("images/image1.jpg") !important;
+    overflow: auto;
+    text-align: center;  
+} 
+	
+h1{ 
+	text-align: center; 
+	margin: 5%; 
+ font-family:'Times New Roman', Times, serif !important ;
+	text-decoration: underline; 
+} 
+	
+ol   { 
+	
+	padding-left: 10 px; 
+	padding: 10 px; 
+	font-size: 20px;
+
+}
+
+ ol li{ 
+	
+	padding: 10px, 25px; 
+	margin: 5px; 
+	transition: 1.5s ease; 
+	text-align: center;
+}
+li:hover{
+	color:red;
+	transition: 1.5s ease; 
+	cursor: pointer; 
+}
+.mainli
+{
+	width: 100%;
+	background: rgba(255, 255, 255, 0.5);
+	padding: 18px;
+	margin: 6px 0 ;
+	overflow: hidden;
+	list-style-type: none;
+	font-size: 15px;
+  }
+ .mainli button{
+	float: right !important; 
+	margin-left: 20px !important;
+	cursor: pointer;
+	font-size: 14px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	background-color: palevioletred !important;
+	font-weight: bolder;
+	border: 2px solid black;
+  } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
